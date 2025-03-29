@@ -2,5 +2,4 @@ ghg time: 05:43:94
 BamB00s time: 03:32:97
 Bam time: 03:07:39
 s00BmaB time: 02:41:26
-dsad time: 08:52:19
-dsadsa time: None
+bam time: 02:45:35

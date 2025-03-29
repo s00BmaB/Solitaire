@@ -309,11 +309,12 @@ class GameWinView(arcade.View):
         self.textField = arcade.gui.UIInputText(width=buttonWidth,
                                                 height=30,
                                                 font_size=16)
-        self.vBoxScore.add(self.textField.with_space_around(bottom=10))
+        #self.vBoxScore.add(self.textField)
+        #something bugged here don't know why don't know how
 
         textBorder = arcade.gui.UIBorder(child=self.textField,
                                          border_color=arcade.color.PINK)
-        self.vBoxScore.add(textBorder.with_space_around(left=5, right=5, bottom=10))
+        self.vBoxScore.add(textBorder)
 
         okButton = arcade.gui.UIFlatButton(text="OK", width=buttonWidth/3,
                                            style={"bg_color": arcade.color.PINK,
@@ -376,7 +377,7 @@ class GameWinView(arcade.View):
         )
 
     def save_score(self, name):
-        print(f"{name} time: {self.gameView.scoreTime}")
+        #print(f"{name} time: {self.gameView.scoreTime}")
         with open(f"scores/scores{self.gameView.mode.upper()}.txt", 'a') as f:
             f.write(f"{name} time: {self.gameView.scoreTime}\n")
 
