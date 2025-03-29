@@ -41,5 +41,8 @@ Basic instructions/rules if someone gets here
 *bug warning (can't see what is typed) don't know how to fix*  
 *score list is a simple .txt file with no ordering*
 
+gitfront link:
+*https://gitfront.io/r/BamB00s/gbLDKUuU9CFw/Solitaire/*
+
 Signed:  
 ***BamB00s***
