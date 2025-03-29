@@ -2,8 +2,8 @@ A solitaire project made as part of programming course in uni.
 =====
 
 *My first project of a scale that big so things are be broken.  
-Lost access to uni repo after course finished so made new one and things may have broken even more during the moving process.(I can't use git properly yet, etc.)*  
-*Also probably got bat gitignore*
+Lost access to uni repo after course finished so made new one and things may have broken even more during the moving process.(I can't use git properly yet, etc.).*  
+*Also probably got bat gitignore.*  
 
 Basic instructions/rules if someone gets here
 ======
