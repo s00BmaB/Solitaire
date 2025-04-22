@@ -1,4 +1,4 @@
-import arcade
+import arcade  #works for version 2.6.17
 import arcade.gui
 import solitaireElements
 import re
