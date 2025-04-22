@@ -1,9 +1,10 @@
 A solitaire project made as part of programming course in uni.  
 =====
 
-*My first project of a scale that big so things may be broken.  
+*My first project of a scale that big so things are broken.  
 Lost access to uni repo after course finished so made new one and things may have broken even more during the moving process.(I can't use git properly yet, etc.).*  
 *Also probably got bad gitignore.*  
+*works on python arcade 2.6.17*
 
 Basic instructions/rules if someone gets here
 ======
