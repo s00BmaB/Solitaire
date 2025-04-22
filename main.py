@@ -1,4 +1,4 @@
-import arcade  #shows no module but works probably broken during moving
+import arcade
 import arcade.gui
 import solitaireElements
 import re
