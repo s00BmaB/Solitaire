@@ -1,9 +1,9 @@
 A solitaire project made as part of programming course in uni.  
 =====
 
-*My first project of a scale that big so things are be broken.  
+*My first project of a scale that big so things may be broken.  
 Lost access to uni repo after course finished so made new one and things may have broken even more during the moving process.(I can't use git properly yet, etc.).*  
-*Also probably got bat gitignore.*  
+*Also probably got bad gitignore.*  
 
 Basic instructions/rules if someone gets here
 ======
@@ -40,6 +40,9 @@ Basic instructions/rules if someone gets here
 ### After finishing Your time can be saved into the respective score list with the name you give  
 *bug warning (can't see what is typed) don't know how to fix*  
 *score list is a simple .txt file with no ordering*
+
+gitfront link:
+https://gitfront.io/r/BamB00s/gbLDKUuU9CFw/Solitaire/
 
 Signed:  
 ***BamB00s***
