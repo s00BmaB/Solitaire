@@ -6,6 +6,8 @@ Lost access to uni repo after course finished so made new one and things may hav
 *Also probably got bad gitignore.*  
 *works on python arcade 2.6.17*
 
+To run properly create a venv and then install proper version of librairies from requirements.txt
+
 Basic instructions/rules if someone gets here
 ======
 
