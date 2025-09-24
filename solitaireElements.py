@@ -137,6 +137,7 @@ class BaseBoard:
         self.firstY = screenHeight - BASE_HEIGHT * scale * 0.6
 
     def setup(self):
+        #holds all the sprites to be drawn in order
         self.pileSpotMarkerList = arcade.SpriteList()
         self.cardList = arcade.SpriteList()
         self.allPiles = []

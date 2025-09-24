@@ -1,4 +1,4 @@
-import arcade  #works for version 2.6.17
+import arcade  #made with version 2.6.17
 import arcade.gui
 import solitaireElements
 import re
@@ -6,11 +6,16 @@ import re
 WINDOW_WIDTH, WINDOW_HEIGHT = 1600, 1000
 CARD_SCALE = 0.8
 
+# All the views to to control what's shown in the window to the user
 
 class MenuView(arcade.View):
     def __init__(self):
         super().__init__()
         self.width, self.height = self.window.get_size()
+
+        # handle all the ui in main menu 
+        # the managers are switched to change which menu is shown
+        # 
 
         self.UIManager = arcade.gui.UIManager()
 
@@ -126,12 +131,14 @@ class MenuView(arcade.View):
 class BoardControlView(arcade.View):
     def __init__(self, mode):
         self.mode = mode
+        
         if mode == "classic":
             self.board = solitaireElements.ClassicBoard(WINDOW_WIDTH, WINDOW_HEIGHT, CARD_SCALE)
         elif mode == "spider":
             self.board = solitaireElements.SpiderBoard(WINDOW_WIDTH, WINDOW_HEIGHT, CARD_SCALE)
         else:
             self.board = solitaireElements.ClassicBoard(WINDOW_WIDTH, WINDOW_HEIGHT, CARD_SCALE)
+
         super().__init__()
         self.heldCards = None
         self.heldCardsOriginalPosition = None

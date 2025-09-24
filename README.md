@@ -1,14 +1,56 @@
-A solitaire project made as part of programming course in uni.  
+A solitaire project made as part of programming course in uni and then expanded after the course ended.  
 =====
 
-*My first project of a scale that big so things are broken.  
-Lost access to uni repo after course finished so made new one and things may have broken even more during the moving process.(I can't use git properly yet, etc.).*  
-*Also probably got bad gitignore.*  
-*works on python arcade 2.6.17*
+*My first project of a scale that big so the chance of things being broken is high due to maybe obvious reasons (still learning).*
 
-To run properly create a venv and then install proper version of librairies from requirements.txt
+Made possible by Python Arcade 2.6.17 page: ([https://api.arcade.academy/en/2.6.17/)](https://api.arcade.academy/en/2.6.17/))
 
-Basic instructions/rules if someone gets here
+# Installation Guide
+
+## Prerequisites
+- Made and tested with python 3.11.9 MAY work with versions close to this one ([https://www.python.org/downloads/)](https://www.python.org/downloads/))
+- Make sure to check "Add Python to PATH" during installation (Windows)
+
+## Quick Setup
+
+1. **Download the project**
+   ```bash
+   # Download ZIP from the repo or clone with git
+   git clone https://github.com/s00BmaB/Solitaire
+   cd Solitaire
+   ```
+
+2. **Create and activate virtual environment**
+   ```bash
+   # Create venv
+   python -m venv venv
+   
+   # Activate it
+   # Windows:
+   venv\Scripts\activate
+   # macOS/Linux:
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the game**
+   ```bash
+   python main.py
+   ```
+
+## Troubleshooting
+- **"Python not recognized"**: Reinstall Python with "Add to PATH" checked
+- **Module errors**: Make sure virtual environment is activated (you should see `(venv)` in terminal)
+- **Game won't start**: Verify Python 3.11.9 with `python --version`
+
+---
+*Virtual environment must be activated each time you want to run the game*
+
+Basic instructions and rules for people who never seen solitaire
 ======
 
 |                  **Action**                   | **KeyBind** |
@@ -44,8 +86,8 @@ Basic instructions/rules if someone gets here
 *bug warning (can't see what is typed) don't know how to fix*  
 *score list is a simple .txt file with no ordering*
 
-gitfront link:
-https://gitfront.io/r/BamB00s/gbLDKUuU9CFw/Solitaire/
+github link:
+https://github.com/s00BmaB/Solitaire
 
 Signed:  
 ***BamB00s***
