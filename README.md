@@ -8,7 +8,7 @@ Made possible by Python Arcade 2.6.17 page: ([https://api.arcade.academy/en/2.6.
 # Installation Guide
 
 ## Prerequisites
-- Made and tested with python 3.11.9 MAY work with versions close to this one ([https://www.python.org/downloads/)](https://www.python.org/downloads/))
+- Made and tested with python 3.11.9, MAY work with versions close to this one ([https://www.python.org/downloads/)](https://www.python.org/downloads/))
 - Make sure to check "Add Python to PATH" during installation (Windows)
 
 ## Quick Setup
